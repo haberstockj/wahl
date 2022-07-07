@@ -1,0 +1,168 @@
+{
+  "presentationTable" : {
+    "name" : "STIMMBEZIRK_EINZEL",
+    "presentationColumns" : [ {
+      "name" : "OBJID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.OBJID"
+    }, {
+      "name" : "LANDID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.LANDID"
+    }, {
+      "name" : "BEZIRKSID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.BEZIRKSID"
+    }, {
+      "name" : "WAHLKREISID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WAHLKREISID"
+    }, {
+      "name" : "KREISID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.KREISID"
+    }, {
+      "name" : "VGDEID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.VGDEID"
+    }, {
+      "name" : "GDEID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.GDEID"
+    }, {
+      "name" : "STADTTEILID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STADTTEILID"
+    }, {
+      "name" : "STIMMBEZIRKSID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STIMMBEZIRKSID"
+    }, {
+      "name" : "GESAMTURNEBRIEFWAHLKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.GESAMTURNEBRIEFWAHLKZ"
+    }, {
+      "name" : "STIMMBEZIRKSKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STIMMBEZIRKSKZ"
+    }, {
+      "name" : "ERFASSUNGSKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ERFASSUNGSKZ"
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.BEZEICHNUNGKURZ"
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.BEZEICHNUNGLANG"
+    }, {
+      "name" : "ANZAHLSPEICHERUNGEN",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ANZAHLSPEICHERUNGEN"
+    }, {
+      "name" : "ANZAHLFREIGABEN",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ANZAHLFREIGABEN"
+    }, {
+      "name" : "REPRAESENTATIVKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.REPRAESENTATIVKZ"
+    }, {
+      "name" : "EINGABEPERSON",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.EINGABEPERSON"
+    }, {
+      "name" : "FREIGABEPERSON",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.FREIGABEPERSON"
+    }, {
+      "name" : "MEHRHEITSWAHL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.MEHRHEITSWAHL"
+    }, {
+      "name" : "FREIGABEKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.FREIGABEKZ"
+    }, {
+      "name" : "ERFASSUNGSSITZEKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ERFASSUNGSSITZEKZ"
+    }, {
+      "name" : "KUMMULIERUNGSKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.KUMMULIERUNGSKZ"
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.AENDERUNGSDATUM"
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.AENDERUNGSUSERID"
+    }, {
+      "name" : "DIENSTSTELLE_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.DIENSTSTELLE_FK"
+    }, {
+      "name" : "WAHL_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WAHL_FK"
+    }, {
+      "name" : "WAHLDURCHRATKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WAHLDURCHRATKZ"
+    }, {
+      "name" : "ERFASSUNGVORSCHLAGKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ERFASSUNGVORSCHLAGKZ"
+    }, {
+      "name" : "WIEDERHOLUNGSWAHLKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WIEDERHOLUNGSWAHLKZ"
+    }, {
+      "name" : "NACHWAHLKZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.NACHWAHLKZ"
+    }, {
+      "name" : "ZEITEINGABE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITEINGABE"
+    }, {
+      "name" : "ZEITERSTESERGEBNIS",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITERSTESERGEBNIS"
+    }, {
+      "name" : "ZEITFREIGABE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITFREIGABE"
+    }, {
+      "name" : "ZEITERSTEFREIGABE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITERSTEFREIGABE"
+    }, {
+      "name" : "WAHLDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WAHLDATUM"
+    }, {
+      "name" : "STICHWAHLDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STICHWAHLDATUM"
+    }, {
+      "name" : "ZEITEINGABE_VORSCHLAG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITEINGABE_VORSCHLAG"
+    }, {
+      "name" : "STIMMBEZIRKAENDERUNGSDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STIMMBEZIRKAENDERUNGSDATUM"
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.AENDERUNGSVERSION"
+    }, {
+      "name" : "ZEITIMPORT_PARITAET",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITIMPORT_PARITAET"
+    }, {
+      "name" : "OBERGRENZEWAEHLER",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.OBERGRENZEWAEHLER"
+    }, {
+      "name" : "RESETPERSON",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.RESETPERSON"
+    }, {
+      "name" : "ZEITRESET",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITRESET"
+    }, {
+      "name" : "ABGEBENDERSTIMMBEZIRK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ABGEBENDERSTIMMBEZIRK"
+    }, {
+      "name" : "AUFNEHMENDERSTIMMBEZIRK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.AUFNEHMENDERSTIMMBEZIRK"
+    }, {
+      "name" : "ZEITEINGABE_WAHLBERECHTIGTE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.ZEITEINGABE_WAHLBERECHTIGTE"
+    }, {
+      "name" : "PERSONEINGABE_WAHLBERECHTIGTE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.PERSONEINGABE_WAHLBERECHTIGTE"
+    }, {
+      "name" : "PARTEIKANDIDATURGRUPPE_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.PARTEIKANDIDATURGRUPPE_FK"
+    }, {
+      "name" : "WAHLKREIS_CHAR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.WAHLKREIS_CHAR"
+    }, {
+      "name" : "KREIS_CHAR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.KREIS_CHAR"
+    }, {
+      "name" : "VG_CHAR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.VG_CHAR"
+    }, {
+      "name" : "GEMEINDE_CHAR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.GEMEINDE_CHAR"
+    }, {
+      "name" : "STADTTEIL_CHAR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL.STADTTEIL_CHAR"
+    } ]
+  }
+}

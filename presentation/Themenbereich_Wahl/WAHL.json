@@ -1,0 +1,75 @@
+{
+  "presentationTable" : {
+    "name" : "WAHL",
+    "presentationColumns" : [ {
+      "name" : "OBJID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.OBJID"
+    }, {
+      "name" : "WAHLART",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.WAHLART"
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.BEZEICHNUNGKURZ"
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.BEZEICHNUNGLANG"
+    }, {
+      "name" : "EINGABEGESPERRT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.EINGABEGESPERRT"
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.AENDERUNGSDATUM"
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.AENDERUNGSUSERID"
+    }, {
+      "name" : "EINGABEVORSCHLAGGESPERRT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.EINGABEVORSCHLAGGESPERRT"
+    }, {
+      "name" : "ANZTAGEEINGABEAUSWERTUNG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.ANZTAGEEINGABEAUSWERTUNG"
+    }, {
+      "name" : "BERECHNUNGSITZVERTEILUNG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.BERECHNUNGSITZVERTEILUNG"
+    }, {
+      "name" : "DATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.DATUM"
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.AENDERUNGSVERSION"
+    }, {
+      "name" : "EINGABEPARITAETGESPERRT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.EINGABEPARITAETGESPERRT"
+    }, {
+      "name" : "ABGESCHLOSSEN",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.ABGESCHLOSSEN"
+    }, {
+      "name" : "PFLEGESTIMMBEZIRKEGESPERRT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.PFLEGESTIMMBEZIRKEGESPERRT"
+    }, {
+      "name" : "VGLSTADTTEILEMIT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.VGLSTADTTEILEMIT"
+    }, {
+      "name" : "VGLSTIMMBEZIRKEMIT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.VGLSTIMMBEZIRKEMIT"
+    }, {
+      "name" : "ERGEBNISPUSHAKTIVIERT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.ERGEBNISPUSHAKTIVIERT"
+    }, {
+      "name" : "IGNORIERENBEITESTS",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.IGNORIERENBEITESTS"
+    }, {
+      "name" : "VORLAEUFIGGEFUELLT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.VORLAEUFIGGEFUELLT"
+    }, {
+      "name" : "EINGABEWAHLBERECHTIGTEGESPERRT",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.EINGABEWAHLBERECHTIGTEGESPERRT"
+    }, {
+      "name" : "PASSWORTBEIFREIGABE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.PASSWORTBEIFREIGABE"
+    }, {
+      "name" : "PASSWORTBEIRESET",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.WAHL.PASSWORTBEIRESET"
+    } ]
+  }
+}

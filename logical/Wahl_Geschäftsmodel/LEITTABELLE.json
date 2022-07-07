@@ -1,0 +1,144 @@
+{
+  "logicalTable" : {
+    "name" : "LEITTABELLE",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.WAHL_FK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REGION_STRUKTUR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.REGION_STRUKTUR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZEICHNUNG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.BEZEICHNUNG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ANZAHL_STIMMBEZIRKE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.ANZAHL_STIMMBEZIRKE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLKREIS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.WAHLKREIS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "KREIS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.KREIS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.VG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GEMEINDE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.GEMEINDE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STADTTEIL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "LEITTABELLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.STADTTEIL" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "LEITTABELLE",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:WAHLDB.TESTSEMANTIK.LEITTABELLE" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "KREIS", "GEMEINDE", "WAHL_FK", "VG" ]
+  }
+}

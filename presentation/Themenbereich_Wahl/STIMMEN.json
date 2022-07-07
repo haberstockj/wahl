@@ -1,0 +1,45 @@
+{
+  "presentationTable" : {
+    "name" : "STIMMEN",
+    "presentationColumns" : [ {
+      "name" : "OBJID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.OBJID"
+    }, {
+      "name" : "ERSTSTIMMENANZAHL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.ERSTSTIMMENANZAHL"
+    }, {
+      "name" : "ZWEITSTIMMENANZAHL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.ZWEITSTIMMENANZAHL"
+    }, {
+      "name" : "ERSTSTIMMENANZAHLVORL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.ERSTSTIMMENANZAHLVORL"
+    }, {
+      "name" : "ZWEITSTIMMENANZAHLVORL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.ZWEITSTIMMENANZAHLVORL"
+    }, {
+      "name" : "GEWICHTETESTIMMEN",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.GEWICHTETESTIMMEN"
+    }, {
+      "name" : "GEWICHTETESTIMMENVORL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.GEWICHTETESTIMMENVORL"
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.AENDERUNGSDATUM"
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.AENDERUNGSUSERID"
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.AENDERUNGSVERSION"
+    }, {
+      "name" : "STIMMBEZIRK_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.STIMMBEZIRK_FK"
+    }, {
+      "name" : "WAHLPARTEI_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.WAHLPARTEI_FK"
+    }, {
+      "name" : "WAHL_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.STIMMEN.WAHL_FK"
+    } ]
+  }
+}

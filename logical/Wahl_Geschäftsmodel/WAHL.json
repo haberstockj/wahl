@@ -1,0 +1,351 @@
+{
+  "logicalTable" : {
+    "name" : "WAHL",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLART",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.WAHLART" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.BEZEICHNUNGKURZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.BEZEICHNUNGLANG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EINGABEGESPERRT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.EINGABEGESPERRT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.AENDERUNGSDATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.AENDERUNGSUSERID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EINGABEVORSCHLAGGESPERRT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.EINGABEVORSCHLAGGESPERRT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ANZTAGEEINGABEAUSWERTUNG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.ANZTAGEEINGABEAUSWERTUNG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BERECHNUNGSITZVERTEILUNG",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.BERECHNUNGSITZVERTEILUNG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.DATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.AENDERUNGSVERSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EINGABEPARITAETGESPERRT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.EINGABEPARITAETGESPERRT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ABGESCHLOSSEN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.ABGESCHLOSSEN" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PFLEGESTIMMBEZIRKEGESPERRT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.PFLEGESTIMMBEZIRKEGESPERRT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VGLSTADTTEILEMIT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.VGLSTADTTEILEMIT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VGLSTIMMBEZIRKEMIT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.VGLSTIMMBEZIRKEMIT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ERGEBNISPUSHAKTIVIERT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.ERGEBNISPUSHAKTIVIERT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "IGNORIERENBEITESTS",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.IGNORIERENBEITESTS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VORLAEUFIGGEFUELLT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.VORLAEUFIGGEFUELLT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EINGABEWAHLBERECHTIGTEGESPERRT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.EINGABEWAHLBERECHTIGTEGESPERRT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PASSWORTBEIFREIGABE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.PASSWORTBEIFREIGABE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PASSWORTBEIRESET",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "WAHL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.PASSWORTBEIRESET" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "WAHL",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:WAHLDB.TESTSEMANTIK.WAHL" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Wahl_Geschäftsmodel.LEITTABELLE",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Wahl_Geschäftsmodel.STIMMBEZIRK_EINZEL",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ],
+    "primaryKey" : [ "OBJID" ]
+  }
+}

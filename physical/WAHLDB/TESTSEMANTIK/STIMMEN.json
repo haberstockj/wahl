@@ -1,0 +1,101 @@
+{
+  "physicalTable" : {
+    "name" : "STIMMEN",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ERSTSTIMMENANZAHL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZWEITSTIMMENANZAHL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ERSTSTIMMENANZAHLVORL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZWEITSTIMMENANZAHLVORL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "GEWICHTETESTIMMEN",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "GEWICHTETESTIMMENVORL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STIMMBEZIRK_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLPARTEI_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMEN.STIMMBEZIRK_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.OBJID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMEN.WAHL_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.STIMMBEZIRK",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMEN.STIMMBEZIRK_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK.OBJID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHLPARTEI",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMEN.WAHLPARTEI_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHLPARTEI.OBJID"
+      } ]
+    } ]
+  }
+}

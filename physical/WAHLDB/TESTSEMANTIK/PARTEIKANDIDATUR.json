@@ -1,0 +1,70 @@
+{
+  "physicalTable" : {
+    "name" : "PARTEIKANDIDATUR",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ERSTSTIMMENKANDIDATUR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZWEITSTIMMENKANDIDATUR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "WAHLPARTEI_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLPARTEIBEZEICHNUNG_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PARTEIKANDIDATURGRUPPE_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "POSITION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.PARTEIKANDIDATUR.WAHL_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID"
+      } ]
+    } ]
+  }
+}

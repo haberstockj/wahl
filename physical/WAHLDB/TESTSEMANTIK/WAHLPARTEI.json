@@ -1,0 +1,72 @@
+{
+  "physicalTable" : {
+    "name" : "WAHLPARTEI",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "KUERZEL",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "dataType" : "VARCHAR",
+      "length" : 500,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "PARTEI_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "INGRAFIK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHLPARTEI",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHLPARTEI.PARTEI_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHLPARTEI.OBJID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHLPARTEI.WAHL_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID"
+      } ]
+    } ]
+  }
+}

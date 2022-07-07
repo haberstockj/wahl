@@ -1,0 +1,285 @@
+{
+  "physicalTable" : {
+    "name" : "STIMMBEZIRK",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LANDID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "BEZIRKSID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLKREISID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "KREISID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "VGDEID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "GDEID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STADTTEILID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STIMMBEZIRKSID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "GESAMTURNEBRIEFWAHLKZ",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "STIMMBEZIRKSKZ",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "ERFASSUNGSKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "dataType" : "VARCHAR",
+      "length" : 500,
+      "nullable" : false
+    }, {
+      "name" : "ANZAHLSPEICHERUNGEN",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ANZAHLFREIGABEN",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "REPRAESENTATIVKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "EINGABEPERSON",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "FREIGABEPERSON",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "MEHRHEITSWAHL",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FREIGABEKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ERFASSUNGSSITZEKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "KUMMULIERUNGSKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "DIENSTSTELLE_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLDURCHRATKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ERFASSUNGVORSCHLAGKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WIEDERHOLUNGSWAHLKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "NACHWAHLKZ",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITEINGABE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITERSTESERGEBNIS",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITFREIGABE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITERSTEFREIGABE",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STICHWAHLDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITEINGABE_VORSCHLAG",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "STIMMBEZIRKAENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITIMPORT_PARITAET",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "OBERGRENZEWAEHLER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "RESETPERSON",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "ZEITRESET",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "ABGEBENDERSTIMMBEZIRK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AUFNEHMENDERSTIMMBEZIRK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ZEITEINGABE_WAHLBERECHTIGTE",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "PERSONEINGABE_WAHLBERECHTIGTE",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "PARTEIKANDIDATURGRUPPE_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLKREIS_CHAR",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "KREIS_CHAR",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "VG_CHAR",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : false
+    }, {
+      "name" : "GEMEINDE_CHAR",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "STADTTEIL_CHAR",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK.WAHL_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "presentationTable" : {
+    "name" : "LEITTABELLE",
+    "presentationColumns" : [ {
+      "name" : "WAHL_FK",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.WAHL_FK"
+    }, {
+      "name" : "REGION_STRUKTUR",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.REGION_STRUKTUR"
+    }, {
+      "name" : "BEZEICHNUNG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.BEZEICHNUNG"
+    }, {
+      "name" : "ANZAHL_STIMMBEZIRKE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.ANZAHL_STIMMBEZIRKE"
+    }, {
+      "name" : "WAHLKREIS",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.WAHLKREIS"
+    }, {
+      "name" : "KREIS",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.KREIS"
+    }, {
+      "name" : "VG",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.VG"
+    }, {
+      "name" : "GEMEINDE",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.GEMEINDE"
+    }, {
+      "name" : "STADTTEIL",
+      "sourceLogicalColumn" : "logicalColumn:Wahl_Geschäftsmodel.LEITTABELLE.STADTTEIL"
+    } ]
+  }
+}

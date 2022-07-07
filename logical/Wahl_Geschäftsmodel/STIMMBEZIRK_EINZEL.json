@@ -1,0 +1,780 @@
+{
+  "logicalTable" : {
+    "name" : "STIMMBEZIRK_EINZEL",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "OBJID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.OBJID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LANDID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.LANDID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZIRKSID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.BEZIRKSID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLKREISID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WAHLKREISID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "KREISID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.KREISID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VGDEID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.VGDEID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GDEID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.GDEID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STADTTEILID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STADTTEILID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STIMMBEZIRKSID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STIMMBEZIRKSID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GESAMTURNEBRIEFWAHLKZ",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.GESAMTURNEBRIEFWAHLKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STIMMBEZIRKSKZ",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STIMMBEZIRKSKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ERFASSUNGSKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ERFASSUNGSKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZEICHNUNGKURZ",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.BEZEICHNUNGKURZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BEZEICHNUNGLANG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.BEZEICHNUNGLANG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ANZAHLSPEICHERUNGEN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ANZAHLSPEICHERUNGEN" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ANZAHLFREIGABEN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ANZAHLFREIGABEN" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REPRAESENTATIVKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.REPRAESENTATIVKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EINGABEPERSON",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.EINGABEPERSON" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FREIGABEPERSON",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.FREIGABEPERSON" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MEHRHEITSWAHL",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.MEHRHEITSWAHL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FREIGABEKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.FREIGABEKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ERFASSUNGSSITZEKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ERFASSUNGSSITZEKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "KUMMULIERUNGSKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.KUMMULIERUNGSKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.AENDERUNGSDATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSUSERID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.AENDERUNGSUSERID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DIENSTSTELLE_FK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.DIENSTSTELLE_FK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WAHL_FK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLDURCHRATKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WAHLDURCHRATKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ERFASSUNGVORSCHLAGKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ERFASSUNGVORSCHLAGKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WIEDERHOLUNGSWAHLKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WIEDERHOLUNGSWAHLKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "NACHWAHLKZ",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.NACHWAHLKZ" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITEINGABE",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITEINGABE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITERSTESERGEBNIS",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITERSTESERGEBNIS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITFREIGABE",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITFREIGABE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITERSTEFREIGABE",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITERSTEFREIGABE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLDATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WAHLDATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STICHWAHLDATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STICHWAHLDATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITEINGABE_VORSCHLAG",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITEINGABE_VORSCHLAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STIMMBEZIRKAENDERUNGSDATUM",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STIMMBEZIRKAENDERUNGSDATUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AENDERUNGSVERSION",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.AENDERUNGSVERSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITIMPORT_PARITAET",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITIMPORT_PARITAET" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OBERGRENZEWAEHLER",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.OBERGRENZEWAEHLER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "RESETPERSON",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.RESETPERSON" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITRESET",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITRESET" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ABGEBENDERSTIMMBEZIRK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ABGEBENDERSTIMMBEZIRK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AUFNEHMENDERSTIMMBEZIRK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.AUFNEHMENDERSTIMMBEZIRK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ZEITEINGABE_WAHLBERECHTIGTE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.ZEITEINGABE_WAHLBERECHTIGTE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERSONEINGABE_WAHLBERECHTIGTE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.PERSONEINGABE_WAHLBERECHTIGTE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PARTEIKANDIDATURGRUPPE_FK",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.PARTEIKANDIDATURGRUPPE_FK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WAHLKREIS_CHAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.WAHLKREIS_CHAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "KREIS_CHAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.KREIS_CHAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VG_CHAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.VG_CHAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GEMEINDE_CHAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.GEMEINDE_CHAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STADTTEIL_CHAR",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "STIMMBEZIRK_EINZEL",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL.STADTTEIL_CHAR" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "STIMMBEZIRK_EINZEL",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:WAHLDB.TESTSEMANTIK.STIMMBEZIRK_EINZEL" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Wahl_Geschäftsmodel.LEITTABELLE",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ],
+    "primaryKey" : [ "OBJID" ]
+  }
+}

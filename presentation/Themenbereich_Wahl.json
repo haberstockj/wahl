@@ -1,0 +1,15 @@
+{
+  "subjectArea" : {
+    "name" : "Themenbereich_Wahl",
+    "sourceBusinessModel" : "businessModel:Wahl_Geschäftsmodel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Themenbereich_Wahl.LEITTABELLE"
+    }, {
+      "name" : "presentationTable:Themenbereich_Wahl.STIMMBEZIRK_EINZEL"
+    }, {
+      "name" : "presentationTable:Themenbereich_Wahl.STIMMEN"
+    }, {
+      "name" : "presentationTable:Themenbereich_Wahl.WAHL"
+    } ]
+  }
+}

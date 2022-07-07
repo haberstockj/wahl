@@ -1,0 +1,60 @@
+{
+  "physicalTable" : {
+    "name" : "LEITTABELLE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "WAHL_FK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "REGION_STRUKTUR",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "BEZEICHNUNG",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "ANZAHL_STIMMBEZIRKE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WAHLKREIS",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "KREIS",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "VG",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : false
+    }, {
+      "name" : "GEMEINDE",
+      "dataType" : "VARCHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "STADTTEIL",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:WAHLDB.TESTSEMANTIK.WAHL",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.LEITTABELLE.WAHL_FK",
+        "rightColumn" : "physicalColumn:WAHLDB.TESTSEMANTIK.WAHL.OBJID"
+      } ]
+    } ]
+  }
+}
